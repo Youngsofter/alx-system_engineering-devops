@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1afp --group-directories-first  | sort | tr '\n' ', '
+ls -1afpX | sort | tr '\n' ', '
