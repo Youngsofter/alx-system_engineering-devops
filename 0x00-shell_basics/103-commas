@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1afp --group-directories-first | LC_COLLATE=C sort | tr '\n' ', '
+ls -1afp --group-directories-first  --sort=none | tr '\n' ', '
